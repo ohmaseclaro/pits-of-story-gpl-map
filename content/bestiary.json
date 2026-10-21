@@ -1,0 +1,393 @@
+[
+	{
+		"CharmsPoints": 5,
+		"FirstUnlock": 10,
+		"Locations": "Caves and towers near Rookgaard.",
+		"SecondUnlock": 100,
+		"class": "Mammal",
+		"creatureId": "bat",
+		"difficulty": "Trivial",
+		"id": "bat",
+		"name": "Bat",
+		"stages": [
+			10,
+			100,
+			250
+		],
+		"toKill": 250
+	},
+	{
+		"CharmsPoints": 15,
+		"FirstUnlock": 25,
+		"Locations": "Forests around the Tower of Roots.",
+		"SecondUnlock": 250,
+		"class": "Mammal",
+		"creatureId": "boar",
+		"difficulty": "Easy",
+		"id": "boar",
+		"name": "Boar",
+		"stages": [
+			25,
+			250,
+			500
+		],
+		"toKill": 500
+	},
+	{
+		"CharmsPoints": 5,
+		"FirstUnlock": 10,
+		"Locations": "In many parts around Tibia, including Rookgaard.",
+		"SecondUnlock": 100,
+		"class": "Vermin",
+		"creatureId": "bug",
+		"difficulty": "Trivial",
+		"id": "bug",
+		"name": "Bug",
+		"stages": [
+			10,
+			100,
+			250
+		],
+		"toKill": 250
+	},
+	{
+		"CharmsPoints": 5,
+		"FirstUnlock": 10,
+		"Locations": "Almost everywhere in tibia, they seem to have a nest-like place in Greenshore, a semi-large spawn at the entrance to the Port Hope troll cave and in cave near Ankrahmun ship. Also appears in Rat Plague in Thais and Rat Plague in Rookgaard.",
+		"SecondUnlock": 100,
+		"class": "Mammal",
+		"creatureId": "cave_rat",
+		"difficulty": "Trivial",
+		"id": "cave_rat",
+		"name": "Cave Rat",
+		"stages": [
+			10,
+			100,
+			250
+		],
+		"toKill": 250
+	},
+	{
+		"CharmsPoints": 5,
+		"FirstUnlock": 10,
+		"Locations": "Darama (Devourer, Kha'labal), in most grassy areas of Tibia, also found in Rookgaard and on Tutorial Island. There are also 2 unreachable Deer found near Fiehonja's protection zone.",
+		"SecondUnlock": 100,
+		"class": "Mammal",
+		"creatureId": "deer",
+		"difficulty": "Trivial",
+		"id": "deer",
+		"name": "Deer",
+		"stages": [
+			10,
+			100,
+			250
+		],
+		"toKill": 250
+	},
+	{
+		"CharmsPoints": 5,
+		"FirstUnlock": 10,
+		"Locations": "Forests and goblin camps.",
+		"SecondUnlock": 100,
+		"class": "Humanoid",
+		"creatureId": "goblin",
+		"difficulty": "Trivial",
+		"id": "goblin",
+		"name": "Goblin",
+		"stages": [
+			10,
+			100,
+			250
+		],
+		"toKill": 250
+	},
+	{
+		"CharmsPoints": 15,
+		"FirstUnlock": 25,
+		"Locations": "Deep mushroom caves.",
+		"SecondUnlock": 250,
+		"class": "Fungi",
+		"creatureId": "humongous_fungus",
+		"difficulty": "Easy",
+		"id": "humongous_fungus",
+		"name": "Humongous Fungus",
+		"stages": [
+			25,
+			250,
+			500
+		],
+		"toKill": 500
+	},
+	{
+		"CharmsPoints": 15,
+		"FirstUnlock": 25,
+		"Locations": "Desert areas like those around Ankrahmun and Darashia.",
+		"SecondUnlock": 250,
+		"class": "Mammal",
+		"creatureId": "hyaena",
+		"difficulty": "Easy",
+		"id": "hyaena",
+		"name": "Hyaena",
+		"stages": [
+			25,
+			250,
+			500
+		],
+		"toKill": 500
+	},
+	{
+		"CharmsPoints": 15,
+		"FirstUnlock": 25,
+		"Locations": "Mino Hell (Rookgaard), Two outside Bear Room Quest, (Rookgaard) and also 2x on the premium side, Mintwallin, Folda, Minotaur Pyramid, Outlaw Camp, Kazordoon minotaur cave, Plains of Havoc, Elven Bane, Deeper Fibula Dungeon (level 50+ to open the door), Ancient Temple, Maze of Lost Souls, Thais Minotaur Camp, Foreigner Quarter.",
+		"SecondUnlock": 250,
+		"class": "Humanoid",
+		"creatureId": "minotaur",
+		"difficulty": "Easy",
+		"id": "minotaur",
+		"name": "Minotaur",
+		"stages": [
+			25,
+			250,
+			500
+		],
+		"toKill": 500
+	},
+	{
+		"CharmsPoints": 15,
+		"FirstUnlock": 25,
+		"Locations": "Ulderek's Rock, Edron Orc Cave, Ancient Temple, Ice Islands, Venore Orc Cave, Rookgaard Orc Fortress, Rookgaard main cave, Fibula Dungeon, Elvenbane, Foreigner Quarter, Zao Orc Land.",
+		"SecondUnlock": 250,
+		"class": "Humanoid",
+		"creatureId": "orc",
+		"difficulty": "Easy",
+		"id": "orc",
+		"name": "Orc",
+		"stages": [
+			25,
+			250,
+			500
+		],
+		"toKill": 500
+	},
+	{
+		"CharmsPoints": 15,
+		"FirstUnlock": 25,
+		"Locations": "Orc camps on the Mainland.",
+		"SecondUnlock": 250,
+		"class": "Humanoid",
+		"creatureId": "orc_shaman",
+		"difficulty": "Easy",
+		"id": "orc_shaman",
+		"name": "Orc Shaman",
+		"stages": [
+			25,
+			250,
+			500
+		],
+		"toKill": 500
+	},
+	{
+		"CharmsPoints": 15,
+		"FirstUnlock": 25,
+		"Locations": "Orc Fortress, Folda Dungeon, Edron Orc Cave and around it, Ancient Temple, Venore Orc Cave, below the Point of No Return in Outlaw Camp, Plains of Havoc, North of Thais in the Orc Peninsula, Elvenbane and Orc Camp in Foreigner Quarter. Also found in Rookgaard West plains, Zao Orc Land.",
+		"SecondUnlock": 250,
+		"class": "Humanoid",
+		"creatureId": "orc_spearman",
+		"difficulty": "Easy",
+		"id": "orc_spearman",
+		"name": "Orc Spearman",
+		"stages": [
+			25,
+			250,
+			500
+		],
+		"toKill": 500
+	},
+	{
+		"CharmsPoints": 5,
+		"FirstUnlock": 10,
+		"Locations": "Found in various caves and plains around Tibia (including Rookgaard).",
+		"SecondUnlock": 100,
+		"class": "Vermin",
+		"creatureId": "poison_spider",
+		"difficulty": "Trivial",
+		"id": "poison_spider",
+		"name": "Poison Spider",
+		"stages": [
+			10,
+			100,
+			250
+		],
+		"toKill": 250
+	},
+	{
+		"CharmsPoints": 5,
+		"FirstUnlock": 10,
+		"Locations": "In most grass areas of Tibia, for example on Tutorial Island.",
+		"SecondUnlock": 100,
+		"class": "Mammal",
+		"creatureId": "rabbit",
+		"difficulty": "Trivial",
+		"id": "rabbit",
+		"name": "Rabbit",
+		"stages": [
+			10,
+			100,
+			250
+		],
+		"toKill": 250
+	},
+	{
+		"CharmsPoints": 5,
+		"FirstUnlock": 10,
+		"Locations": "Rookgaard and Mainland, in most sewers and caves near towns. They can be found almost everywhere in Tibia.",
+		"SecondUnlock": 100,
+		"class": "Mammal",
+		"creatureId": "rat",
+		"difficulty": "Trivial",
+		"id": "rat",
+		"name": "Rat",
+		"stages": [
+			10,
+			100,
+			250
+		],
+		"toKill": 250
+	},
+	{
+		"CharmsPoints": 5,
+		"FirstUnlock": 10,
+		"Locations": "In almost all grassy areas of Tibia. Also found in Rookgaard.",
+		"SecondUnlock": 100,
+		"class": "Reptile",
+		"creatureId": "snake",
+		"difficulty": "Trivial",
+		"id": "snake",
+		"name": "Snake",
+		"stages": [
+			10,
+			100,
+			250
+		],
+		"toKill": 250
+	},
+	{
+		"CharmsPoints": 5,
+		"FirstUnlock": 10,
+		"Locations": "Almost everywhere, in grass areas, sewers like Carlin sewers, caves like as Ancient Temple, Rookgaard and the Tiquanda Tarantula Caves.",
+		"SecondUnlock": 100,
+		"class": "Vermin",
+		"creatureId": "spider",
+		"difficulty": "Trivial",
+		"id": "spider",
+		"name": "Spider",
+		"stages": [
+			10,
+			100,
+			250
+		],
+		"toKill": 250
+	},
+	{
+		"CharmsPoints": 15,
+		"FirstUnlock": 25,
+		"Locations": "Muddy shores and tortoise caves.",
+		"SecondUnlock": 250,
+		"class": "Reptile",
+		"creatureId": "thornback_tortoise",
+		"difficulty": "Easy",
+		"id": "thornback_tortoise",
+		"name": "Thornback Tortoise",
+		"stages": [
+			25,
+			250,
+			500
+		],
+		"toKill": 500
+	},
+	{
+		"CharmsPoints": 15,
+		"FirstUnlock": 25,
+		"Locations": "Swamps and flooded caves.",
+		"SecondUnlock": 250,
+		"class": "Amphibic",
+		"creatureId": "toad",
+		"difficulty": "Easy",
+		"id": "toad",
+		"name": "Toad",
+		"stages": [
+			25,
+			250,
+			500
+		],
+		"toKill": 500
+	},
+	{
+		"CharmsPoints": 5,
+		"FirstUnlock": 10,
+		"Locations": "In many dungeons around Tibia like the troll cave in Thais, south of Carlin (out the east exit and down the hole), Island of Destiny, Edron Troll Cave, and in Ab'Dendriel. Also found in Rookgaard.",
+		"SecondUnlock": 100,
+		"class": "Humanoid",
+		"creatureId": "troll",
+		"difficulty": "Trivial",
+		"id": "troll",
+		"name": "Troll",
+		"stages": [
+			10,
+			100,
+			250
+		],
+		"toKill": 250
+	},
+	{
+		"CharmsPoints": 30,
+		"FirstUnlock": 1,
+		"Locations": "Rookgaard and in Thais during raids",
+		"SecondUnlock": 3,
+		"class": "Humanoid",
+		"creatureId": "troll_guard",
+		"difficulty": "Easy",
+		"id": "troll_guard",
+		"name": "Troll Guard",
+		"stages": [
+			1,
+			3,
+			5
+		],
+		"toKill": 5
+	},
+	{
+		"CharmsPoints": 5,
+		"FirstUnlock": 10,
+		"Locations": "South of Thais, west of Ab'Dendriel, northeastern Cormaya, Green Claw Swamp between Kazordoon and Venore, Wasp Tower in Rookgaard, Wasp Towers in Darashia, all over Tiquanda, and all over Vandura, roaming around Marapur.",
+		"SecondUnlock": 100,
+		"class": "Vermin",
+		"creatureId": "wasp",
+		"difficulty": "Trivial",
+		"id": "wasp",
+		"name": "Wasp",
+		"stages": [
+			10,
+			100,
+			250
+		],
+		"toKill": 250
+	},
+	{
+		"CharmsPoints": 5,
+		"FirstUnlock": 10,
+		"Locations": "In almost all grass areas in Tibia, also found in Rookgaard and Dawnport.",
+		"SecondUnlock": 100,
+		"class": "Mammal",
+		"creatureId": "wolf",
+		"difficulty": "Trivial",
+		"id": "wolf",
+		"name": "Wolf",
+		"stages": [
+			10,
+			100,
+			250
+		],
+		"toKill": 250
+	}
+]

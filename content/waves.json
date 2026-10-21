@@ -1,0 +1,128 @@
+[
+	{
+		"broadcast": "",
+		"id": "munster",
+		"name": "munster",
+		"steps": [
+			{
+				"delaySec": 10,
+				"spawns": [
+					{
+						"amount": 1,
+						"name": "Munster"
+					}
+				]
+			}
+		]
+	},
+	{
+		"boosted": "Rat",
+		"broadcast": "Numerous Rats invaded Rookgaard!",
+		"id": "rookgaard-rats",
+		"name": "rookgaard.rats",
+		"steps": [
+			{
+				"delaySec": 1,
+				"spawns": [
+					{
+						"amount": 10,
+						"name": "Cave Rat"
+					},
+					{
+						"amount": 20,
+						"name": "Rat"
+					}
+				]
+			}
+		]
+	},
+	{
+		"boosted": "Rat",
+		"broadcast": "Numerous Rats invaded Rookgaard!",
+		"id": "rookgaard-rats",
+		"name": "rookgaard.rats",
+		"steps": [
+			{
+				"delaySec": 1,
+				"spawns": [
+					{
+						"amount": 10,
+						"name": "Cave Rat"
+					},
+					{
+						"amount": 20,
+						"name": "Rat"
+					}
+				]
+			}
+		]
+	},
+	{
+		"boosted": "Rat",
+		"broadcast": "Rat Plague in Thais!",
+		"id": "thais-rats",
+		"name": "thais.rats",
+		"steps": [
+			{
+				"delaySec": 5,
+				"spawns": [
+					{
+						"amount": 10,
+						"name": "Cave Rat"
+					},
+					{
+						"amount": 10,
+						"name": "Rat"
+					}
+				]
+			},
+			{
+				"delaySec": 600,
+				"spawns": [
+					{
+						"amount": 20,
+						"name": "Cave Rat"
+					},
+					{
+						"amount": 20,
+						"name": "Rat"
+					}
+				]
+			}
+		]
+	},
+	{
+		"boosted": "Rat",
+		"broadcast": "Rat Plague in Thais!",
+		"id": "thais-rats",
+		"name": "thais.rats",
+		"steps": [
+			{
+				"delaySec": 5,
+				"spawns": [
+					{
+						"amount": 10,
+						"name": "Cave Rat"
+					},
+					{
+						"amount": 10,
+						"name": "Rat"
+					}
+				]
+			},
+			{
+				"delaySec": 600,
+				"spawns": [
+					{
+						"amount": 20,
+						"name": "Cave Rat"
+					},
+					{
+						"amount": 20,
+						"name": "Rat"
+					}
+				]
+			}
+		]
+	}
+]

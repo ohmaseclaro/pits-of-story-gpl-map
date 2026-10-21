@@ -1,0 +1,30 @@
+[
+	{
+		"id": "wound",
+		"name": "Wound",
+		"points": [
+			24
+		]
+	},
+	{
+		"id": "enflame",
+		"name": "Enflame",
+		"points": [
+			40
+		]
+	},
+	{
+		"id": "poison",
+		"name": "Poison",
+		"points": [
+			24
+		]
+	},
+	{
+		"id": "freeze",
+		"name": "Freeze",
+		"points": [
+			32
+		]
+	}
+]

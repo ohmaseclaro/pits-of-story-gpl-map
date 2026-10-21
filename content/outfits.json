@@ -1,0 +1,1766 @@
+[
+	{
+		"from": "",
+		"looktype": 128,
+		"name": "Citizen",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "",
+		"looktype": 129,
+		"name": "Hunter",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "",
+		"looktype": 130,
+		"name": "Mage",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "",
+		"looktype": 131,
+		"name": "Knight",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "",
+		"looktype": 132,
+		"name": "Nobleman",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "",
+		"looktype": 133,
+		"name": "Summoner",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "",
+		"looktype": 134,
+		"name": "Warrior",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "",
+		"looktype": 136,
+		"name": "Citizen",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "",
+		"looktype": 137,
+		"name": "Hunter",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "",
+		"looktype": 138,
+		"name": "Mage",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "",
+		"looktype": 139,
+		"name": "Knight",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "",
+		"looktype": 140,
+		"name": "Noblewoman",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "",
+		"looktype": 141,
+		"name": "Summoner",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "",
+		"looktype": 142,
+		"name": "Warrior",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "",
+		"looktype": 143,
+		"name": "Barbarian",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "",
+		"looktype": 144,
+		"name": "Druid",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "",
+		"looktype": 145,
+		"name": "Wizard",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "",
+		"looktype": 146,
+		"name": "Oriental",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "",
+		"looktype": 147,
+		"name": "Barbarian",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "",
+		"looktype": 148,
+		"name": "Druid",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "",
+		"looktype": 149,
+		"name": "Wizard",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "",
+		"looktype": 150,
+		"name": "Oriental",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "quest",
+		"looktype": 151,
+		"name": "Pirate",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "quest",
+		"looktype": 152,
+		"name": "Assassin",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "quest",
+		"looktype": 153,
+		"name": "Beggar",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "quest",
+		"looktype": 154,
+		"name": "Shaman",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "quest",
+		"looktype": 155,
+		"name": "Pirate",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "quest",
+		"looktype": 156,
+		"name": "Assassin",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "quest",
+		"looktype": 157,
+		"name": "Beggar",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "quest",
+		"looktype": 158,
+		"name": "Shaman",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "quest",
+		"looktype": 251,
+		"name": "Norseman",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "quest",
+		"looktype": 252,
+		"name": "Norsewoman",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "quest",
+		"looktype": 268,
+		"name": "Nightmare",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "quest",
+		"looktype": 269,
+		"name": "Nightmare",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "quest",
+		"looktype": 270,
+		"name": "Jester",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "quest",
+		"looktype": 273,
+		"name": "Jester",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "quest",
+		"looktype": 278,
+		"name": "Brotherhood",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "quest",
+		"looktype": 279,
+		"name": "Brotherhood",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "quest",
+		"looktype": 288,
+		"name": "Demon Hunter",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "quest",
+		"looktype": 289,
+		"name": "Demon Hunter",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "quest",
+		"looktype": 324,
+		"name": "Yalaharian",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "quest",
+		"looktype": 325,
+		"name": "Yalaharian",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "quest",
+		"looktype": 328,
+		"name": "Newly Wed",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "quest",
+		"looktype": 329,
+		"name": "Newly Wed",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "quest",
+		"looktype": 335,
+		"name": "Warmaster",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "quest",
+		"looktype": 336,
+		"name": "Warmaster",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "quest",
+		"looktype": 366,
+		"name": "Wayfarer",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "quest",
+		"looktype": 367,
+		"name": "Wayfarer",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "quest",
+		"looktype": 430,
+		"name": "Afflicted",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "quest",
+		"looktype": 431,
+		"name": "Afflicted",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "quest",
+		"looktype": 432,
+		"name": "Elementalist",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "quest",
+		"looktype": 433,
+		"name": "Elementalist",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "quest",
+		"looktype": 463,
+		"name": "Deepling",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "quest",
+		"looktype": 464,
+		"name": "Deepling",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "quest",
+		"looktype": 465,
+		"name": "Insectoid",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "quest",
+		"looktype": 466,
+		"name": "Insectoid",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 471,
+		"name": "Entrepreneur",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 472,
+		"name": "Entrepreneur",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "quest",
+		"looktype": 512,
+		"name": "Crystal Warlord",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "quest",
+		"looktype": 513,
+		"name": "Crystal Warlord",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "quest",
+		"looktype": 514,
+		"name": "Soil Guardian",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "quest",
+		"looktype": 516,
+		"name": "Soil Guardian",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "quest",
+		"looktype": 541,
+		"name": "Demon",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "quest",
+		"looktype": 542,
+		"name": "Demon",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "quest",
+		"looktype": 574,
+		"name": "Cave Explorer",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "quest",
+		"looktype": 575,
+		"name": "Cave Explorer",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "quest",
+		"looktype": 577,
+		"name": "Dream Warden",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "quest",
+		"looktype": 578,
+		"name": "Dream Warden",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "quest",
+		"looktype": 610,
+		"name": "Glooth Engineer",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "quest",
+		"looktype": 618,
+		"name": "Glooth Engineer",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "",
+		"looktype": 619,
+		"name": "Jersey",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "",
+		"looktype": 620,
+		"name": "Jersey",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 632,
+		"name": "Champion",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 633,
+		"name": "Champion",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 634,
+		"name": "Conjurer",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 635,
+		"name": "Conjurer",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 636,
+		"name": "Beastmaster",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 637,
+		"name": "Beastmaster",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 664,
+		"name": "Chaos Acolyte",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 665,
+		"name": "Chaos Acolyte",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 666,
+		"name": "Death Herald",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 667,
+		"name": "Death Herald",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 683,
+		"name": "Ranger",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 684,
+		"name": "Ranger",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 694,
+		"name": "Ceremonial Garb",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 695,
+		"name": "Ceremonial Garb",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 696,
+		"name": "Puppeteer",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 697,
+		"name": "Puppeteer",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 698,
+		"name": "Spirit Caller",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 699,
+		"name": "Spirit Caller",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 724,
+		"name": "Evoker",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 725,
+		"name": "Evoker",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 732,
+		"name": "Seaweaver",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 733,
+		"name": "Seaweaver",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "",
+		"looktype": 745,
+		"name": "Recruiter",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "",
+		"looktype": 746,
+		"name": "Recruiter",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 749,
+		"name": "Sea Dog",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 750,
+		"name": "Sea Dog",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 759,
+		"name": "Royal Pumpkin",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 760,
+		"name": "Royal Pumpkin",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "quest",
+		"looktype": 845,
+		"name": "Rift Warrior",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "quest",
+		"looktype": 846,
+		"name": "Rift Warrior",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 852,
+		"name": "Winter Warden",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 853,
+		"name": "Winter Warden",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 873,
+		"name": "Philosopher",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 874,
+		"name": "Philosopher",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 884,
+		"name": "Arena Champion",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 885,
+		"name": "Arena Champion",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 899,
+		"name": "Lupine Warden",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 900,
+		"name": "Lupine Warden",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 908,
+		"name": "Grove Keeper",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 909,
+		"name": "Grove Keeper",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "quest",
+		"looktype": 929,
+		"name": "Festive",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "quest",
+		"looktype": 931,
+		"name": "Festive",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 955,
+		"name": "Pharaoh",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 956,
+		"name": "Pharaoh",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 957,
+		"name": "Trophy Hunter",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 958,
+		"name": "Trophy Hunter",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 962,
+		"name": "Retro Warrior",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 963,
+		"name": "Retro Warrior",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 964,
+		"name": "Retro Summoner",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 965,
+		"name": "Retro Summoner",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 966,
+		"name": "Retro Nobleman",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 967,
+		"name": "Retro Noblewoman",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 968,
+		"name": "Retro Mage",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 969,
+		"name": "Retro Mage",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 970,
+		"name": "Retro Knight",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 971,
+		"name": "Retro Knight",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 972,
+		"name": "Retro Hunter",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 973,
+		"name": "Retro Hunter",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 974,
+		"name": "Retro Citizen",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 975,
+		"name": "Retro Citizen",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 1020,
+		"name": "Herbalist",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 1021,
+		"name": "Herbalist",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 1023,
+		"name": "Sun Priest",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 1024,
+		"name": "Sun Priest",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "quest",
+		"looktype": 1042,
+		"name": "Makeshift Warrior",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "quest",
+		"looktype": 1043,
+		"name": "Makeshift Warrior",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 1050,
+		"name": "Siege Master",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 1051,
+		"name": "Siege Master",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 1056,
+		"name": "Mercenary",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 1057,
+		"name": "Mercenary",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "quest",
+		"looktype": 1069,
+		"name": "Battle Mage",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "quest",
+		"looktype": 1070,
+		"name": "Battle Mage",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "quest",
+		"looktype": 1094,
+		"name": "Discoverer",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "quest",
+		"looktype": 1095,
+		"name": "Discoverer",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 1102,
+		"name": "Sinister Archer",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 1103,
+		"name": "Sinister Archer",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 1127,
+		"name": "Pumpkin Mummy",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 1128,
+		"name": "Pumpkin Mummy",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "quest",
+		"looktype": 1146,
+		"name": "Dream Warrior",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "quest",
+		"looktype": 1147,
+		"name": "Dream Warrior",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "quest",
+		"looktype": 1161,
+		"name": "Percht Raider",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "quest",
+		"looktype": 1162,
+		"name": "Percht Raider",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 1173,
+		"name": "Owl Keeper",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 1174,
+		"name": "Owl Keeper",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 1186,
+		"name": "Guidon Bearer",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 1187,
+		"name": "Guidon Bearer",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 1202,
+		"name": "Void Master",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 1203,
+		"name": "Void Master",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 1204,
+		"name": "Veteran Paladin",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 1205,
+		"name": "Veteran Paladin",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 1206,
+		"name": "Lion of War",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 1207,
+		"name": "Lion of War",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "quest",
+		"looktype": 1210,
+		"name": "Golden",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "quest",
+		"looktype": 1211,
+		"name": "Golden",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "quest",
+		"looktype": 1243,
+		"name": "Hand of the Inquisition",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "quest",
+		"looktype": 1244,
+		"name": "Hand of the Inquisition",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 1245,
+		"name": "Breezy Garb",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 1246,
+		"name": "Breezy Garb",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "quest",
+		"looktype": 1251,
+		"name": "Orcsoberfest Garb",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "quest",
+		"looktype": 1252,
+		"name": "Orcsoberfest Garb",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "quest",
+		"looktype": 1270,
+		"name": "Poltergeist",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "quest",
+		"looktype": 1271,
+		"name": "Poltergeist",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 1279,
+		"name": "Herder",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 1280,
+		"name": "Herder",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "quest",
+		"looktype": 1282,
+		"name": "Falconer",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "quest",
+		"looktype": 1283,
+		"name": "Falconer",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 1288,
+		"name": "Dragon Slayer",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 1289,
+		"name": "Dragon Slayer",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 1292,
+		"name": "Trailblazer",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 1293,
+		"name": "Trailblazer",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "quest",
+		"looktype": 1322,
+		"name": "Revenant",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "quest",
+		"looktype": 1323,
+		"name": "Revenant",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 1331,
+		"name": "Jouster",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 1332,
+		"name": "Jouster",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 1338,
+		"name": "Moth Cape",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 1339,
+		"name": "Moth Cape",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "quest",
+		"looktype": 1371,
+		"name": "Rascoohan",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "quest",
+		"looktype": 1372,
+		"name": "Rascoohan",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 1382,
+		"name": "Merry Garb",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 1383,
+		"name": "Merry Garb",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 1384,
+		"name": "Rune Master",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 1385,
+		"name": "Rune Master",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "quest",
+		"looktype": 1386,
+		"name": "Citizen of Issavi",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "quest",
+		"looktype": 1387,
+		"name": "Citizen of Issavi",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 1415,
+		"name": "Forest Warden",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 1416,
+		"name": "Forest Warden",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "quest",
+		"looktype": 1436,
+		"name": "Royal Bounacean Advisor",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "quest",
+		"looktype": 1437,
+		"name": "Royal Bounacean Advisor",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 1444,
+		"name": "Dragon Knight",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 1445,
+		"name": "Dragon Knight",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 1449,
+		"name": "Arbalester",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 1450,
+		"name": "Arbalester",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 1456,
+		"name": "Royal Costume",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 1457,
+		"name": "Royal Costume",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 1460,
+		"name": "Formal Dress",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 1461,
+		"name": "Formal Dress",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 1489,
+		"name": "Ghost Blade",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 1490,
+		"name": "Ghost Blade",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 1500,
+		"name": "Nordic Chieftain",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 1501,
+		"name": "Nordic Chieftain",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "quest",
+		"looktype": 1568,
+		"name": "Fire-Fighter",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "quest",
+		"looktype": 1569,
+		"name": "Fire-Fighter",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 1575,
+		"name": "Fencer",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 1576,
+		"name": "Fencer",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 1581,
+		"name": "Shadowlotus Disciple",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 1582,
+		"name": "Shadowlotus Disciple",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "quest",
+		"looktype": 1597,
+		"name": "Ancient Aucar",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "quest",
+		"looktype": 1598,
+		"name": "Ancient Aucar",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 1612,
+		"name": "Frost Tracer",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 1613,
+		"name": "Frost Tracer",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 1618,
+		"name": "Armoured Archer",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 1619,
+		"name": "Armoured Archer",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "quest",
+		"looktype": 1662,
+		"name": "Decaying Defender",
+		"premium": true,
+		"type": 1
+	},
+	{
+		"from": "quest",
+		"looktype": 1663,
+		"name": "Decaying Defender",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 1675,
+		"name": "Darklight Evoker",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 1676,
+		"name": "Darklight Evoker",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 1680,
+		"name": "Flamefury Mage",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 1681,
+		"name": "Flamefury Mage",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 1713,
+		"name": "Doom Knight",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 1714,
+		"name": "Doom Knight",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "quest",
+		"looktype": 1722,
+		"name": "Draccoon Herald",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "quest",
+		"looktype": 1723,
+		"name": "Draccoon Herald",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 1725,
+		"name": "Celestial Avenger",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 1726,
+		"name": "Celestial Avenger",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 1745,
+		"name": "Blade Dancer",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 1746,
+		"name": "Blade Dancer",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "quest",
+		"looktype": 1774,
+		"name": "Rootwalker",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "quest",
+		"looktype": 1775,
+		"name": "Rootwalker",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 1776,
+		"name": "Beekeeper",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 1777,
+		"name": "Beekeeper",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "quest",
+		"looktype": 1808,
+		"name": "Fiend Slayer",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "quest",
+		"looktype": 1809,
+		"name": "Fiend Slayer",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "",
+		"looktype": 1824,
+		"name": "Monk",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "",
+		"looktype": 1825,
+		"name": "Monk",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 1831,
+		"name": "Winged Druid",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 1832,
+		"name": "Winged Druid",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "store",
+		"looktype": 1837,
+		"name": "Martial Artist",
+		"premium": false,
+		"type": 1
+	},
+	{
+		"from": "store",
+		"looktype": 1838,
+		"name": "Martial Artist",
+		"premium": false,
+		"type": 0
+	},
+	{
+		"from": "quest",
+		"looktype": 1860,
+		"name": "Illuminator",
+		"premium": true,
+		"type": 0
+	},
+	{
+		"from": "quest",
+		"looktype": 1861,
+		"name": "Illuminator",
+		"premium": true,
+		"type": 0
+	}
+]

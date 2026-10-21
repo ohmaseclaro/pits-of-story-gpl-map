@@ -1,0 +1,3155 @@
+[
+	{
+		"armor": 12,
+		"attacks": [
+			{
+				"chance": 100,
+				"interval": 2000,
+				"maxDamage": -10,
+				"minDamage": 0,
+				"name": "melee"
+			},
+			{
+				"chance": 8,
+				"interval": 1000,
+				"name": "energyfield",
+				"radius": 1,
+				"range": 7,
+				"shootEffect": "CONST_ANI_ENERGY"
+			},
+			{
+				"chance": 14,
+				"effect": "CONST_ME_ENERGYAREA",
+				"interval": 1000,
+				"maxDamage": -25,
+				"minDamage": 0,
+				"name": "combat",
+				"range": 7,
+				"shootEffect": "CONST_ANI_ENERGYBALL",
+				"type": "COMBAT_ENERGYDAMAGE"
+			},
+			{
+				"chance": 10,
+				"effect": "CONST_ME_FIREAREA",
+				"interval": 2000,
+				"maxDamage": -45,
+				"minDamage": 0,
+				"name": "combat",
+				"range": 7,
+				"shootEffect": "CONST_ANI_FIRE",
+				"type": "COMBAT_FIREDAMAGE"
+			}
+		],
+		"elements": [
+			{
+				"percent": 0,
+				"type": "COMBAT_PHYSICALDAMAGE"
+			},
+			{
+				"percent": 100,
+				"type": "COMBAT_ENERGYDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_EARTHDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_FIREDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_LIFEDRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_MANADRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_DROWNDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_ICEDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_HOLYDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_DEATHDAMAGE"
+			}
+		],
+		"experience": 150,
+		"flags": {
+			"rewardBoss": true,
+			"runHealth": 20,
+			"targetDistance": 4
+		},
+		"health": 95,
+		"immunities": [
+			{
+				"condition": true,
+				"type": "paralyze"
+			},
+			{
+				"condition": false,
+				"type": "outfit"
+			},
+			{
+				"condition": true,
+				"type": "invisible"
+			},
+			{
+				"condition": false,
+				"type": "bleed"
+			}
+		],
+		"lookType": 23,
+		"name": "Apprentice Sheng",
+		"speed": 85,
+		"summons": [
+			{
+				"chance": 30,
+				"count": 2,
+				"interval": 5000,
+				"name": "Hyaena"
+			}
+		],
+		"voices": [
+			{
+				"chance": 10,
+				"interval": 5000,
+				"text": "I will protect the secrets of my master!",
+				"yell": false
+			},
+			{
+				"chance": 10,
+				"interval": 5000,
+				"text": "Kaplar!",
+				"yell": false
+			},
+			{
+				"chance": 10,
+				"interval": 5000,
+				"text": "This isle will become ours alone",
+				"yell": false
+			},
+			{
+				"chance": 10,
+				"interval": 5000,
+				"text": "You already know too much.",
+				"yell": false
+			}
+		]
+	},
+	{
+		"armor": 1,
+		"attacks": [
+			{
+				"chance": 100,
+				"interval": 2000,
+				"maxDamage": -8,
+				"minDamage": 0,
+				"name": "melee"
+			}
+		],
+		"elements": [
+			{
+				"percent": 0,
+				"type": "COMBAT_PHYSICALDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_ENERGYDAMAGE"
+			},
+			{
+				"percent": -10,
+				"type": "COMBAT_EARTHDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_FIREDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_LIFEDRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_MANADRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_DROWNDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_ICEDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_HOLYDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_DEATHDAMAGE"
+			}
+		],
+		"experience": 10,
+		"flags": {
+			"rewardBoss": false,
+			"runHealth": 3,
+			"targetDistance": 1
+		},
+		"health": 30,
+		"immunities": [
+			{
+				"condition": false,
+				"type": "paralyze"
+			},
+			{
+				"condition": false,
+				"type": "outfit"
+			},
+			{
+				"condition": false,
+				"type": "invisible"
+			},
+			{
+				"condition": false,
+				"type": "bleed"
+			}
+		],
+		"lookType": 122,
+		"name": "Bat",
+		"speed": 100,
+		"summons": [],
+		"voices": [
+			{
+				"chance": 10,
+				"interval": 5000,
+				"text": "Flap! Flap!",
+				"yell": false
+			}
+		]
+	},
+	{
+		"armor": 10,
+		"attacks": [
+			{
+				"chance": 100,
+				"interval": 2000,
+				"maxDamage": -50,
+				"minDamage": 0,
+				"name": "melee"
+			}
+		],
+		"elements": [
+			{
+				"percent": 0,
+				"type": "COMBAT_PHYSICALDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_ENERGYDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_EARTHDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_FIREDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_LIFEDRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_MANADRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_DROWNDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_ICEDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_HOLYDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_DEATHDAMAGE"
+			}
+		],
+		"experience": 60,
+		"flags": {
+			"rewardBoss": false,
+			"runHealth": 30,
+			"targetDistance": 1
+		},
+		"health": 198,
+		"immunities": [
+			{
+				"condition": false,
+				"type": "paralyze"
+			},
+			{
+				"condition": false,
+				"type": "outfit"
+			},
+			{
+				"condition": false,
+				"type": "invisible"
+			},
+			{
+				"condition": false,
+				"type": "bleed"
+			}
+		],
+		"lookType": 380,
+		"name": "Boar",
+		"speed": 205,
+		"summons": [],
+		"voices": [
+			{
+				"chance": 10,
+				"interval": 5000,
+				"text": "Grunt! Grunt!",
+				"yell": false
+			},
+			{
+				"chance": 10,
+				"interval": 5000,
+				"text": "Grunt",
+				"yell": false
+			}
+		]
+	},
+	{
+		"armor": 2,
+		"attacks": [
+			{
+				"chance": 100,
+				"interval": 2000,
+				"maxDamage": -23,
+				"minDamage": 0,
+				"name": "melee"
+			}
+		],
+		"elements": [
+			{
+				"percent": 0,
+				"type": "COMBAT_PHYSICALDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_ENERGYDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_EARTHDAMAGE"
+			},
+			{
+				"percent": -10,
+				"type": "COMBAT_FIREDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_LIFEDRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_MANADRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_DROWNDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_ICEDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_HOLYDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_DEATHDAMAGE"
+			}
+		],
+		"experience": 18,
+		"flags": {
+			"rewardBoss": false,
+			"runHealth": 0,
+			"targetDistance": 1
+		},
+		"health": 29,
+		"immunities": [
+			{
+				"condition": false,
+				"type": "paralyze"
+			},
+			{
+				"condition": false,
+				"type": "outfit"
+			},
+			{
+				"condition": false,
+				"type": "invisible"
+			},
+			{
+				"condition": false,
+				"type": "bleed"
+			}
+		],
+		"lookType": 45,
+		"name": "Bug",
+		"speed": 80,
+		"summons": [],
+		"voices": []
+	},
+	{
+		"armor": 1,
+		"attacks": [
+			{
+				"chance": 100,
+				"interval": 2000,
+				"maxDamage": -10,
+				"minDamage": 0,
+				"name": "melee"
+			}
+		],
+		"elements": [
+			{
+				"percent": 0,
+				"type": "COMBAT_PHYSICALDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_ENERGYDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_EARTHDAMAGE"
+			},
+			{
+				"percent": -10,
+				"type": "COMBAT_FIREDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_LIFEDRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_MANADRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_DROWNDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_ICEDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_HOLYDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_DEATHDAMAGE"
+			}
+		],
+		"experience": 10,
+		"flags": {
+			"rewardBoss": false,
+			"runHealth": 3,
+			"targetDistance": 1
+		},
+		"health": 30,
+		"immunities": [
+			{
+				"condition": false,
+				"type": "paralyze"
+			},
+			{
+				"condition": false,
+				"type": "outfit"
+			},
+			{
+				"condition": false,
+				"type": "invisible"
+			},
+			{
+				"condition": false,
+				"type": "bleed"
+			}
+		],
+		"lookType": 56,
+		"name": "Cave Rat",
+		"speed": 75,
+		"summons": [],
+		"voices": [
+			{
+				"chance": 10,
+				"interval": 5000,
+				"text": "Meep!",
+				"yell": false
+			},
+			{
+				"chance": 10,
+				"interval": 5000,
+				"text": "Meeeeep!",
+				"yell": false
+			}
+		]
+	},
+	{
+		"armor": 2,
+		"attacks": [
+			{
+				"chance": 100,
+				"interval": 2000,
+				"maxDamage": -1,
+				"minDamage": 0,
+				"name": "melee"
+			}
+		],
+		"elements": [
+			{
+				"percent": 0,
+				"type": "COMBAT_PHYSICALDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_ENERGYDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_EARTHDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_FIREDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_LIFEDRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_MANADRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_DROWNDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_ICEDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_HOLYDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_DEATHDAMAGE"
+			}
+		],
+		"experience": 0,
+		"flags": {
+			"rewardBoss": false,
+			"runHealth": 25,
+			"targetDistance": 1
+		},
+		"health": 25,
+		"immunities": [
+			{
+				"condition": false,
+				"type": "paralyze"
+			},
+			{
+				"condition": false,
+				"type": "outfit"
+			},
+			{
+				"condition": false,
+				"type": "invisible"
+			},
+			{
+				"condition": false,
+				"type": "bleed"
+			}
+		],
+		"lookType": 31,
+		"name": "Deer",
+		"speed": 98,
+		"summons": [],
+		"voices": []
+	},
+	{
+		"armor": 6,
+		"attacks": [
+			{
+				"chance": 100,
+				"interval": 2000,
+				"maxDamage": -10,
+				"minDamage": 0,
+				"name": "melee"
+			},
+			{
+				"chance": 10,
+				"interval": 2000,
+				"maxDamage": -25,
+				"minDamage": 0,
+				"name": "combat",
+				"range": 7,
+				"shootEffect": "CONST_ANI_SMALLSTONE",
+				"type": "COMBAT_PHYSICALDAMAGE"
+			}
+		],
+		"elements": [
+			{
+				"percent": 0,
+				"type": "COMBAT_PHYSICALDAMAGE"
+			},
+			{
+				"percent": 20,
+				"type": "COMBAT_ENERGYDAMAGE"
+			},
+			{
+				"percent": -10,
+				"type": "COMBAT_EARTHDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_FIREDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_LIFEDRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_MANADRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_DROWNDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_ICEDAMAGE"
+			},
+			{
+				"percent": 20,
+				"type": "COMBAT_HOLYDAMAGE"
+			},
+			{
+				"percent": -10,
+				"type": "COMBAT_DEATHDAMAGE"
+			}
+		],
+		"experience": 25,
+		"flags": {
+			"rewardBoss": false,
+			"runHealth": 15,
+			"targetDistance": 1
+		},
+		"health": 50,
+		"immunities": [
+			{
+				"condition": false,
+				"type": "paralyze"
+			},
+			{
+				"condition": false,
+				"type": "outfit"
+			},
+			{
+				"condition": false,
+				"type": "invisible"
+			},
+			{
+				"condition": false,
+				"type": "bleed"
+			}
+		],
+		"lookType": 61,
+		"name": "Goblin",
+		"speed": 60,
+		"summons": [],
+		"voices": [
+			{
+				"chance": 10,
+				"interval": 5000,
+				"text": "Zig Zag! Gobo attack!",
+				"yell": false
+			},
+			{
+				"chance": 10,
+				"interval": 5000,
+				"text": "Me green, me mean!",
+				"yell": false
+			},
+			{
+				"chance": 10,
+				"interval": 5000,
+				"text": "Bugga! Bugga!",
+				"yell": false
+			},
+			{
+				"chance": 10,
+				"interval": 5000,
+				"text": "Help! Goblinkiller!",
+				"yell": false
+			},
+			{
+				"chance": 10,
+				"interval": 5000,
+				"text": "Me have him!",
+				"yell": false
+			}
+		]
+	},
+	{
+		"armor": 15,
+		"attacks": [
+			{
+				"attack": 60,
+				"chance": 100,
+				"interval": 2000,
+				"name": "melee",
+				"skill": 75
+			},
+			{
+				"chance": 15,
+				"interval": 1000,
+				"maxDamage": -200,
+				"minDamage": -150,
+				"name": "combat",
+				"range": 7,
+				"shootEffect": "CONST_ANI_LARGEROCK",
+				"type": "COMBAT_PHYSICALDAMAGE"
+			}
+		],
+		"bosstiary": {
+			"bossRace": "RARITY_NEMESIS",
+			"bossRaceId": 205
+		},
+		"elements": [
+			{
+				"percent": 30,
+				"type": "COMBAT_PHYSICALDAMAGE"
+			},
+			{
+				"percent": 20,
+				"type": "COMBAT_ENERGYDAMAGE"
+			},
+			{
+				"percent": 100,
+				"type": "COMBAT_EARTHDAMAGE"
+			},
+			{
+				"percent": -10,
+				"type": "COMBAT_FIREDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_LIFEDRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_MANADRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_DROWNDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_ICEDAMAGE"
+			},
+			{
+				"percent": 20,
+				"type": "COMBAT_HOLYDAMAGE"
+			},
+			{
+				"percent": -1,
+				"type": "COMBAT_DEATHDAMAGE"
+			}
+		],
+		"experience": 2400,
+		"flags": {
+			"rewardBoss": true,
+			"runHealth": 0,
+			"targetDistance": 1
+		},
+		"health": 3000,
+		"immunities": [
+			{
+				"condition": true,
+				"type": "paralyze"
+			},
+			{
+				"condition": false,
+				"type": "outfit"
+			},
+			{
+				"condition": true,
+				"type": "invisible"
+			},
+			{
+				"condition": false,
+				"type": "bleed"
+			}
+		],
+		"lookType": 205,
+		"name": "Grorlam",
+		"speed": 120,
+		"summons": [],
+		"voices": []
+	},
+	{
+		"armor": 70,
+		"attacks": [
+			{
+				"chance": 100,
+				"interval": 2000,
+				"maxDamage": -330,
+				"minDamage": 0,
+				"name": "melee"
+			},
+			{
+				"chance": 15,
+				"effect": "CONST_ME_SMALLPLANTS",
+				"interval": 2000,
+				"maxDamage": -350,
+				"minDamage": -180,
+				"name": "combat",
+				"range": 7,
+				"shootEffect": "CONST_ANI_SMALLEARTH",
+				"type": "COMBAT_EARTHDAMAGE"
+			},
+			{
+				"chance": 10,
+				"interval": 2000,
+				"name": "poisonfield",
+				"radius": 4
+			},
+			{
+				"chance": 10,
+				"effect": "CONST_ME_GREEN_RINGS",
+				"interval": 2000,
+				"length": 8,
+				"maxDamage": -1000,
+				"minDamage": -500,
+				"name": "condition",
+				"spread": 0,
+				"type": "CONDITION_POISON"
+			},
+			{
+				"chance": 10,
+				"effect": "CONST_ME_MAGIC_RED",
+				"interval": 2000,
+				"length": 5,
+				"maxDamage": -260,
+				"minDamage": -130,
+				"name": "combat",
+				"spread": 0,
+				"type": "COMBAT_LIFEDRAIN"
+			},
+			{
+				"chance": 10,
+				"effect": "CONST_ME_HITBYPOISON",
+				"interval": 2000,
+				"maxDamage": -640,
+				"minDamage": -400,
+				"name": "condition",
+				"radius": 3,
+				"range": 7,
+				"type": "CONDITION_POISON"
+			}
+		],
+		"elements": [
+			{
+				"percent": 0,
+				"type": "COMBAT_PHYSICALDAMAGE"
+			},
+			{
+				"percent": 15,
+				"type": "COMBAT_ENERGYDAMAGE"
+			},
+			{
+				"percent": 100,
+				"type": "COMBAT_EARTHDAMAGE"
+			},
+			{
+				"percent": -10,
+				"type": "COMBAT_FIREDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_LIFEDRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_MANADRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_DROWNDAMAGE"
+			},
+			{
+				"percent": 15,
+				"type": "COMBAT_ICEDAMAGE"
+			},
+			{
+				"percent": 5,
+				"type": "COMBAT_HOLYDAMAGE"
+			},
+			{
+				"percent": 35,
+				"type": "COMBAT_DEATHDAMAGE"
+			}
+		],
+		"experience": 2900,
+		"flags": {
+			"rewardBoss": false,
+			"runHealth": 0,
+			"targetDistance": 1
+		},
+		"health": 3400,
+		"immunities": [
+			{
+				"condition": true,
+				"type": "paralyze"
+			},
+			{
+				"condition": false,
+				"type": "outfit"
+			},
+			{
+				"condition": true,
+				"type": "invisible"
+			},
+			{
+				"condition": false,
+				"type": "bleed"
+			}
+		],
+		"lookType": 488,
+		"name": "Humongous Fungus",
+		"speed": 130,
+		"summons": [],
+		"voices": [
+			{
+				"chance": 10,
+				"interval": 5000,
+				"text": "Munch munch munch!",
+				"yell": false
+			}
+		]
+	},
+	{
+		"armor": 1,
+		"attacks": [
+			{
+				"chance": 100,
+				"interval": 2000,
+				"maxDamage": -20,
+				"minDamage": 0,
+				"name": "melee"
+			}
+		],
+		"elements": [
+			{
+				"percent": 0,
+				"type": "COMBAT_PHYSICALDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_ENERGYDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_EARTHDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_FIREDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_LIFEDRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_MANADRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_DROWNDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_ICEDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_HOLYDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_DEATHDAMAGE"
+			}
+		],
+		"experience": 20,
+		"flags": {
+			"rewardBoss": false,
+			"runHealth": 30,
+			"targetDistance": 1
+		},
+		"health": 60,
+		"immunities": [
+			{
+				"condition": false,
+				"type": "paralyze"
+			},
+			{
+				"condition": false,
+				"type": "outfit"
+			},
+			{
+				"condition": false,
+				"type": "invisible"
+			},
+			{
+				"condition": false,
+				"type": "bleed"
+			}
+		],
+		"lookType": 94,
+		"name": "Hyaena",
+		"speed": 98,
+		"summons": [],
+		"voices": [
+			{
+				"chance": 10,
+				"interval": 5000,
+				"text": "Grrrrrr",
+				"yell": false
+			},
+			{
+				"chance": 10,
+				"interval": 5000,
+				"text": "Hou hou hou!",
+				"yell": false
+			}
+		]
+	},
+	{
+		"armor": 5,
+		"attacks": [
+			{
+				"chance": 100,
+				"interval": 2000,
+				"maxDamage": -10,
+				"minDamage": 0,
+				"name": "melee"
+			},
+			{
+				"chance": 10,
+				"interval": 2000,
+				"maxDamage": -15,
+				"minDamage": -1,
+				"name": "kraknaknork ice wave"
+			},
+			{
+				"chance": 10,
+				"interval": 2000,
+				"maxDamage": -10,
+				"minDamage": -1,
+				"name": "kraknaknork poison wave"
+			},
+			{
+				"chance": 10,
+				"interval": 2000,
+				"maxDamage": -12,
+				"minDamage": 0,
+				"name": "kraknaknork explosion wave"
+			},
+			{
+				"chance": 20,
+				"effect": "CONST_ME_MORTAREA",
+				"interval": 2000,
+				"maxDamage": -8,
+				"minDamage": 0,
+				"name": "combat",
+				"range": 7,
+				"shootEffect": "CONST_ANI_SUDDENDEATH",
+				"type": "COMBAT_PHYSICALDAMAGE"
+			},
+			{
+				"chance": 6,
+				"duration": 20000,
+				"effect": "CONST_ME_MAGIC_RED",
+				"interval": 1000,
+				"name": "speed",
+				"range": 7,
+				"speedChange": -100
+			},
+			{
+				"chance": 10,
+				"duration": 3000,
+				"interval": 2000,
+				"name": "outfit",
+				"range": 7
+			}
+		],
+		"elements": [
+			{
+				"percent": 0,
+				"type": "COMBAT_PHYSICALDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_ENERGYDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_EARTHDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_FIREDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_LIFEDRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_MANADRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_DROWNDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_ICEDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_HOLYDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_DEATHDAMAGE"
+			}
+		],
+		"experience": 300,
+		"flags": {
+			"rewardBoss": false,
+			"runHealth": 23,
+			"targetDistance": 4
+		},
+		"health": 80,
+		"immunities": [
+			{
+				"condition": false,
+				"type": "paralyze"
+			},
+			{
+				"condition": false,
+				"type": "outfit"
+			},
+			{
+				"condition": false,
+				"type": "invisible"
+			},
+			{
+				"condition": false,
+				"type": "bleed"
+			}
+		],
+		"lookType": 6,
+		"name": "Kraknaknork",
+		"speed": 90,
+		"summons": [
+			{
+				"chance": 20,
+				"count": 1,
+				"interval": 2000,
+				"name": "Weakened Demon"
+			}
+		],
+		"voices": [
+			{
+				"chance": 10,
+				"interval": 5000,
+				"text": "KRAK ORC DEMON",
+				"yell": false
+			},
+			{
+				"chance": 10,
+				"interval": 5000,
+				"text": "???!!!",
+				"yell": false
+			},
+			{
+				"chance": 10,
+				"interval": 5000,
+				"text": "Grak brrretz gulu.",
+				"yell": false
+			}
+		]
+	},
+	{
+		"armor": 11,
+		"attacks": [
+			{
+				"chance": 100,
+				"interval": 2000,
+				"maxDamage": -45,
+				"minDamage": 0,
+				"name": "melee"
+			}
+		],
+		"elements": [
+			{
+				"percent": 0,
+				"type": "COMBAT_PHYSICALDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_ENERGYDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_EARTHDAMAGE"
+			},
+			{
+				"percent": 20,
+				"type": "COMBAT_FIREDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_LIFEDRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_MANADRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_DROWNDAMAGE"
+			},
+			{
+				"percent": -10,
+				"type": "COMBAT_ICEDAMAGE"
+			},
+			{
+				"percent": 10,
+				"type": "COMBAT_HOLYDAMAGE"
+			},
+			{
+				"percent": -10,
+				"type": "COMBAT_DEATHDAMAGE"
+			}
+		],
+		"experience": 50,
+		"flags": {
+			"rewardBoss": false,
+			"runHealth": 0,
+			"targetDistance": 1
+		},
+		"health": 100,
+		"immunities": [
+			{
+				"condition": false,
+				"type": "paralyze"
+			},
+			{
+				"condition": false,
+				"type": "outfit"
+			},
+			{
+				"condition": false,
+				"type": "invisible"
+			},
+			{
+				"condition": false,
+				"type": "bleed"
+			}
+		],
+		"lookType": 25,
+		"name": "Minotaur",
+		"speed": 84,
+		"summons": [],
+		"voices": [
+			{
+				"chance": 10,
+				"interval": 5000,
+				"text": "Kaplar!",
+				"yell": false
+			},
+			{
+				"chance": 10,
+				"interval": 5000,
+				"text": "Hurr",
+				"yell": false
+			}
+		]
+	},
+	{
+		"armor": 2,
+		"attacks": [
+			{
+				"chance": 100,
+				"interval": 2000,
+				"maxDamage": -15,
+				"minDamage": 0,
+				"name": "melee"
+			}
+		],
+		"elements": [
+			{
+				"percent": 0,
+				"type": "COMBAT_PHYSICALDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_ENERGYDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_EARTHDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_FIREDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_LIFEDRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_MANADRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_DROWNDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_ICEDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_HOLYDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_DEATHDAMAGE"
+			}
+		],
+		"experience": 35,
+		"flags": {
+			"rewardBoss": true,
+			"runHealth": 10,
+			"targetDistance": 1
+		},
+		"health": 58,
+		"immunities": [
+			{
+				"condition": false,
+				"type": "paralyze"
+			},
+			{
+				"condition": false,
+				"type": "outfit"
+			},
+			{
+				"condition": false,
+				"type": "invisible"
+			},
+			{
+				"condition": false,
+				"type": "bleed"
+			}
+		],
+		"lookType": 56,
+		"name": "Munster",
+		"speed": 100,
+		"summons": [
+			{
+				"chance": 20,
+				"count": 2,
+				"interval": 2000,
+				"name": "Rat"
+			}
+		],
+		"voices": [
+			{
+				"chance": 10,
+				"interval": 5000,
+				"text": "Meep!",
+				"yell": false
+			},
+			{
+				"chance": 10,
+				"interval": 5000,
+				"text": "Meeeeep!",
+				"yell": false
+			}
+		]
+	},
+	{
+		"armor": 4,
+		"attacks": [
+			{
+				"chance": 100,
+				"interval": 2000,
+				"maxDamage": -35,
+				"minDamage": 0,
+				"name": "melee"
+			}
+		],
+		"elements": [
+			{
+				"percent": 0,
+				"type": "COMBAT_PHYSICALDAMAGE"
+			},
+			{
+				"percent": 20,
+				"type": "COMBAT_ENERGYDAMAGE"
+			},
+			{
+				"percent": -10,
+				"type": "COMBAT_EARTHDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_FIREDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_LIFEDRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_MANADRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_DROWNDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_ICEDAMAGE"
+			},
+			{
+				"percent": 10,
+				"type": "COMBAT_HOLYDAMAGE"
+			},
+			{
+				"percent": -10,
+				"type": "COMBAT_DEATHDAMAGE"
+			}
+		],
+		"experience": 25,
+		"flags": {
+			"rewardBoss": false,
+			"runHealth": 15,
+			"targetDistance": 1
+		},
+		"health": 70,
+		"immunities": [
+			{
+				"condition": false,
+				"type": "paralyze"
+			},
+			{
+				"condition": false,
+				"type": "outfit"
+			},
+			{
+				"condition": false,
+				"type": "invisible"
+			},
+			{
+				"condition": false,
+				"type": "bleed"
+			}
+		],
+		"lookType": 5,
+		"name": "Orc",
+		"speed": 75,
+		"summons": [],
+		"voices": [
+			{
+				"chance": 10,
+				"interval": 5000,
+				"text": "Grow truk grrrrr.",
+				"yell": false
+			},
+			{
+				"chance": 10,
+				"interval": 5000,
+				"text": "Prek tars, dekklep zurk.",
+				"yell": false
+			},
+			{
+				"chance": 10,
+				"interval": 5000,
+				"text": "Grak brrretz!",
+				"yell": false
+			}
+		]
+	},
+	{
+		"armor": 8,
+		"attacks": [
+			{
+				"chance": 100,
+				"interval": 2000,
+				"maxDamage": -15,
+				"minDamage": 0,
+				"name": "melee"
+			},
+			{
+				"chance": 15,
+				"interval": 2000,
+				"maxDamage": -31,
+				"minDamage": -20,
+				"name": "combat",
+				"range": 7,
+				"shootEffect": "CONST_ANI_ENERGYBALL",
+				"type": "COMBAT_ENERGYDAMAGE"
+			},
+			{
+				"chance": 5,
+				"interval": 2000,
+				"maxDamage": -43,
+				"minDamage": -5,
+				"name": "combat",
+				"radius": 1,
+				"range": 7,
+				"shootEffect": "CONST_ANI_FIRE",
+				"type": "COMBAT_FIREDAMAGE"
+			}
+		],
+		"elements": [
+			{
+				"percent": 0,
+				"type": "COMBAT_PHYSICALDAMAGE"
+			},
+			{
+				"percent": 50,
+				"type": "COMBAT_ENERGYDAMAGE"
+			},
+			{
+				"percent": -10,
+				"type": "COMBAT_EARTHDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_FIREDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_LIFEDRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_MANADRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_DROWNDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_ICEDAMAGE"
+			},
+			{
+				"percent": 10,
+				"type": "COMBAT_HOLYDAMAGE"
+			},
+			{
+				"percent": -5,
+				"type": "COMBAT_DEATHDAMAGE"
+			}
+		],
+		"experience": 110,
+		"flags": {
+			"rewardBoss": false,
+			"runHealth": 15,
+			"targetDistance": 4
+		},
+		"health": 115,
+		"immunities": [
+			{
+				"condition": false,
+				"type": "paralyze"
+			},
+			{
+				"condition": false,
+				"type": "outfit"
+			},
+			{
+				"condition": true,
+				"type": "invisible"
+			},
+			{
+				"condition": false,
+				"type": "bleed"
+			}
+		],
+		"lookType": 6,
+		"name": "Orc Shaman",
+		"speed": 70,
+		"summons": [
+			{
+				"chance": 20,
+				"count": 3,
+				"interval": 2000,
+				"name": "Snake"
+			}
+		],
+		"voices": [
+			{
+				"chance": 10,
+				"interval": 5000,
+				"text": "Huumans stinkk!",
+				"yell": false
+			},
+			{
+				"chance": 10,
+				"interval": 5000,
+				"text": "Grak brrretz gulu.",
+				"yell": false
+			}
+		]
+	},
+	{
+		"armor": 6,
+		"attacks": [
+			{
+				"chance": 100,
+				"interval": 2000,
+				"maxDamage": -25,
+				"minDamage": 0,
+				"name": "melee"
+			},
+			{
+				"chance": 20,
+				"interval": 2000,
+				"maxDamage": -30,
+				"minDamage": 0,
+				"name": "combat",
+				"range": 7,
+				"shootEffect": "CONST_ANI_SPEAR",
+				"type": "COMBAT_PHYSICALDAMAGE"
+			}
+		],
+		"elements": [
+			{
+				"percent": 0,
+				"type": "COMBAT_PHYSICALDAMAGE"
+			},
+			{
+				"percent": 20,
+				"type": "COMBAT_ENERGYDAMAGE"
+			},
+			{
+				"percent": -10,
+				"type": "COMBAT_EARTHDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_FIREDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_LIFEDRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_MANADRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_DROWNDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_ICEDAMAGE"
+			},
+			{
+				"percent": 20,
+				"type": "COMBAT_HOLYDAMAGE"
+			},
+			{
+				"percent": -10,
+				"type": "COMBAT_DEATHDAMAGE"
+			}
+		],
+		"experience": 38,
+		"flags": {
+			"rewardBoss": false,
+			"runHealth": 10,
+			"targetDistance": 4
+		},
+		"health": 105,
+		"immunities": [
+			{
+				"condition": false,
+				"type": "paralyze"
+			},
+			{
+				"condition": false,
+				"type": "outfit"
+			},
+			{
+				"condition": false,
+				"type": "invisible"
+			},
+			{
+				"condition": false,
+				"type": "bleed"
+			}
+		],
+		"lookType": 50,
+		"name": "Orc Spearman",
+		"speed": 88,
+		"summons": [],
+		"voices": [
+			{
+				"chance": 10,
+				"interval": 5000,
+				"text": "Ugaar!",
+				"yell": false
+			}
+		]
+	},
+	{
+		"armor": 2,
+		"attacks": [
+			{
+				"chance": 100,
+				"interval": 2000,
+				"maxDamage": -20,
+				"minDamage": 0,
+				"name": "melee"
+			}
+		],
+		"elements": [
+			{
+				"percent": 0,
+				"type": "COMBAT_PHYSICALDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_ENERGYDAMAGE"
+			},
+			{
+				"percent": 100,
+				"type": "COMBAT_EARTHDAMAGE"
+			},
+			{
+				"percent": -10,
+				"type": "COMBAT_FIREDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_LIFEDRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_MANADRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_DROWNDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_ICEDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_HOLYDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_DEATHDAMAGE"
+			}
+		],
+		"experience": 22,
+		"flags": {
+			"rewardBoss": false,
+			"runHealth": 6,
+			"targetDistance": 1
+		},
+		"health": 26,
+		"immunities": [
+			{
+				"condition": false,
+				"type": "paralyze"
+			},
+			{
+				"condition": false,
+				"type": "outfit"
+			},
+			{
+				"condition": false,
+				"type": "invisible"
+			},
+			{
+				"condition": false,
+				"type": "bleed"
+			}
+		],
+		"lookType": 36,
+		"name": "Poison Spider",
+		"speed": 80,
+		"summons": [],
+		"voices": []
+	},
+	{
+		"armor": 1,
+		"attacks": [],
+		"elements": [
+			{
+				"percent": 0,
+				"type": "COMBAT_PHYSICALDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_ENERGYDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_EARTHDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_FIREDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_LIFEDRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_MANADRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_DROWNDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_ICEDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_HOLYDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_DEATHDAMAGE"
+			}
+		],
+		"experience": 0,
+		"flags": {
+			"rewardBoss": false,
+			"runHealth": 15,
+			"targetDistance": 1
+		},
+		"health": 15,
+		"immunities": [
+			{
+				"condition": false,
+				"type": "paralyze"
+			},
+			{
+				"condition": false,
+				"type": "outfit"
+			},
+			{
+				"condition": false,
+				"type": "invisible"
+			},
+			{
+				"condition": false,
+				"type": "bleed"
+			}
+		],
+		"lookType": 74,
+		"name": "Rabbit",
+		"speed": 90,
+		"summons": [],
+		"voices": []
+	},
+	{
+		"armor": 1,
+		"attacks": [
+			{
+				"chance": 100,
+				"interval": 2000,
+				"maxDamage": -8,
+				"minDamage": 0,
+				"name": "melee"
+			}
+		],
+		"elements": [
+			{
+				"percent": 0,
+				"type": "COMBAT_PHYSICALDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_ENERGYDAMAGE"
+			},
+			{
+				"percent": 20,
+				"type": "COMBAT_EARTHDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_FIREDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_LIFEDRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_MANADRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_DROWNDAMAGE"
+			},
+			{
+				"percent": -10,
+				"type": "COMBAT_ICEDAMAGE"
+			},
+			{
+				"percent": 20,
+				"type": "COMBAT_HOLYDAMAGE"
+			},
+			{
+				"percent": -10,
+				"type": "COMBAT_DEATHDAMAGE"
+			}
+		],
+		"experience": 5,
+		"flags": {
+			"rewardBoss": false,
+			"runHealth": 5,
+			"targetDistance": 1
+		},
+		"health": 20,
+		"immunities": [
+			{
+				"condition": false,
+				"type": "paralyze"
+			},
+			{
+				"condition": false,
+				"type": "outfit"
+			},
+			{
+				"condition": false,
+				"type": "invisible"
+			},
+			{
+				"condition": false,
+				"type": "bleed"
+			}
+		],
+		"lookType": 21,
+		"name": "Rat",
+		"speed": 67,
+		"summons": [],
+		"voices": [
+			{
+				"chance": 10,
+				"interval": 5000,
+				"text": "Meep!",
+				"yell": false
+			}
+		]
+	},
+	{
+		"armor": 0,
+		"attacks": [
+			{
+				"chance": 100,
+				"interval": 2000,
+				"maxDamage": -8,
+				"minDamage": 0,
+				"name": "melee"
+			}
+		],
+		"elements": [
+			{
+				"percent": 0,
+				"type": "COMBAT_PHYSICALDAMAGE"
+			},
+			{
+				"percent": 20,
+				"type": "COMBAT_ENERGYDAMAGE"
+			},
+			{
+				"percent": 40,
+				"type": "COMBAT_EARTHDAMAGE"
+			},
+			{
+				"percent": -10,
+				"type": "COMBAT_FIREDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_LIFEDRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_MANADRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_DROWNDAMAGE"
+			},
+			{
+				"percent": -10,
+				"type": "COMBAT_ICEDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_HOLYDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_DEATHDAMAGE"
+			}
+		],
+		"experience": 10,
+		"flags": {
+			"rewardBoss": false,
+			"runHealth": 0,
+			"targetDistance": 1
+		},
+		"health": 15,
+		"immunities": [
+			{
+				"condition": false,
+				"type": "paralyze"
+			},
+			{
+				"condition": false,
+				"type": "outfit"
+			},
+			{
+				"condition": false,
+				"type": "invisible"
+			},
+			{
+				"condition": false,
+				"type": "bleed"
+			}
+		],
+		"lookType": 28,
+		"name": "Snake",
+		"speed": 60,
+		"summons": [],
+		"voices": [
+			{
+				"chance": 10,
+				"interval": 5000,
+				"text": "Zzzzzzt",
+				"yell": false
+			}
+		]
+	},
+	{
+		"armor": 2,
+		"attacks": [
+			{
+				"chance": 100,
+				"interval": 2000,
+				"maxDamage": -9,
+				"minDamage": 0,
+				"name": "melee"
+			}
+		],
+		"elements": [
+			{
+				"percent": 0,
+				"type": "COMBAT_PHYSICALDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_ENERGYDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_EARTHDAMAGE"
+			},
+			{
+				"percent": -20,
+				"type": "COMBAT_FIREDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_LIFEDRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_MANADRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_DROWNDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_ICEDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_HOLYDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_DEATHDAMAGE"
+			}
+		],
+		"experience": 12,
+		"flags": {
+			"rewardBoss": false,
+			"runHealth": 6,
+			"targetDistance": 1
+		},
+		"health": 20,
+		"immunities": [
+			{
+				"condition": false,
+				"type": "paralyze"
+			},
+			{
+				"condition": false,
+				"type": "outfit"
+			},
+			{
+				"condition": false,
+				"type": "invisible"
+			},
+			{
+				"condition": false,
+				"type": "bleed"
+			}
+		],
+		"lookType": 30,
+		"name": "Spider",
+		"speed": 76,
+		"summons": [],
+		"voices": []
+	},
+	{
+		"armor": 10,
+		"attacks": [
+			{
+				"chance": 100,
+				"interval": 5000,
+				"name": "spider queen wrap",
+				"range": 1
+			}
+		],
+		"elements": [
+			{
+				"percent": 100,
+				"type": "COMBAT_PHYSICALDAMAGE"
+			},
+			{
+				"percent": 100,
+				"type": "COMBAT_ENERGYDAMAGE"
+			},
+			{
+				"percent": 100,
+				"type": "COMBAT_EARTHDAMAGE"
+			},
+			{
+				"percent": 100,
+				"type": "COMBAT_FIREDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_LIFEDRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_MANADRAIN"
+			},
+			{
+				"percent": 100,
+				"type": "COMBAT_DROWNDAMAGE"
+			},
+			{
+				"percent": 100,
+				"type": "COMBAT_ICEDAMAGE"
+			},
+			{
+				"percent": 100,
+				"type": "COMBAT_HOLYDAMAGE"
+			},
+			{
+				"percent": 100,
+				"type": "COMBAT_DEATHDAMAGE"
+			}
+		],
+		"experience": 120,
+		"flags": {
+			"rewardBoss": false,
+			"runHealth": 0,
+			"targetDistance": 1
+		},
+		"health": 10000,
+		"immunities": [
+			{
+				"condition": false,
+				"type": "paralyze"
+			},
+			{
+				"condition": false,
+				"type": "outfit"
+			},
+			{
+				"condition": false,
+				"type": "invisible"
+			},
+			{
+				"condition": false,
+				"type": "bleed"
+			}
+		],
+		"lookType": 219,
+		"name": "Spider Queen",
+		"speed": 140,
+		"summons": [],
+		"voices": []
+	},
+	{
+		"armor": 35,
+		"attacks": [
+			{
+				"chance": 100,
+				"interval": 2000,
+				"maxDamage": -270,
+				"minDamage": 0,
+				"name": "melee"
+			},
+			{
+				"chance": 10,
+				"effect": "CONST_ME_CARNIPHILA",
+				"interval": 2000,
+				"length": 8,
+				"maxDamage": -320,
+				"minDamage": -65,
+				"name": "combat",
+				"spread": 3,
+				"type": "COMBAT_EARTHDAMAGE"
+			},
+			{
+				"chance": 25,
+				"duration": 15000,
+				"effect": "CONST_ME_GREEN_RINGS",
+				"interval": 2000,
+				"name": "speed",
+				"radius": 4,
+				"range": 7,
+				"shootEffect": "CONST_ANI_POISON",
+				"speedChange": -300
+			},
+			{
+				"chance": 10,
+				"effect": "CONST_ME_LOSEENERGY",
+				"interval": 2000,
+				"length": 8,
+				"maxDamage": -250,
+				"minDamage": -100,
+				"name": "combat",
+				"spread": 3,
+				"type": "COMBAT_ICEDAMAGE"
+			},
+			{
+				"chance": 10,
+				"effect": "CONST_ME_ICEATTACK",
+				"interval": 2000,
+				"maxDamage": -155,
+				"minDamage": -70,
+				"name": "combat",
+				"range": 7,
+				"shootEffect": "CONST_ANI_ICE",
+				"type": "COMBAT_ICEDAMAGE"
+			}
+		],
+		"elements": [
+			{
+				"percent": 0,
+				"type": "COMBAT_PHYSICALDAMAGE"
+			},
+			{
+				"percent": -10,
+				"type": "COMBAT_ENERGYDAMAGE"
+			},
+			{
+				"percent": 100,
+				"type": "COMBAT_EARTHDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_FIREDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_LIFEDRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_MANADRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_DROWNDAMAGE"
+			},
+			{
+				"percent": 50,
+				"type": "COMBAT_ICEDAMAGE"
+			},
+			{
+				"percent": 30,
+				"type": "COMBAT_HOLYDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_DEATHDAMAGE"
+			}
+		],
+		"experience": 4000,
+		"flags": {
+			"rewardBoss": true,
+			"runHealth": 300,
+			"targetDistance": 1
+		},
+		"health": 5000,
+		"immunities": [
+			{
+				"condition": true,
+				"type": "paralyze"
+			},
+			{
+				"condition": false,
+				"type": "outfit"
+			},
+			{
+				"condition": true,
+				"type": "invisible"
+			},
+			{
+				"condition": false,
+				"type": "bleed"
+			}
+		],
+		"lookType": 121,
+		"name": "The Many",
+		"speed": 130,
+		"summons": [],
+		"voices": []
+	},
+	{
+		"armor": 24,
+		"attacks": [
+			{
+				"chance": 100,
+				"interval": 2000,
+				"maxDamage": -110,
+				"minDamage": 0,
+				"name": "melee"
+			}
+		],
+		"elements": [
+			{
+				"percent": 30,
+				"type": "COMBAT_PHYSICALDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_ENERGYDAMAGE"
+			},
+			{
+				"percent": 20,
+				"type": "COMBAT_EARTHDAMAGE"
+			},
+			{
+				"percent": -10,
+				"type": "COMBAT_FIREDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_LIFEDRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_MANADRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_DROWNDAMAGE"
+			},
+			{
+				"percent": 20,
+				"type": "COMBAT_ICEDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_HOLYDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_DEATHDAMAGE"
+			}
+		],
+		"experience": 150,
+		"flags": {
+			"rewardBoss": false,
+			"runHealth": 0,
+			"targetDistance": 1
+		},
+		"health": 300,
+		"immunities": [
+			{
+				"condition": false,
+				"type": "paralyze"
+			},
+			{
+				"condition": false,
+				"type": "outfit"
+			},
+			{
+				"condition": false,
+				"type": "invisible"
+			},
+			{
+				"condition": false,
+				"type": "bleed"
+			}
+		],
+		"lookType": 198,
+		"name": "Thornback Tortoise",
+		"speed": 75,
+		"summons": [],
+		"voices": []
+	},
+	{
+		"armor": 6,
+		"attacks": [
+			{
+				"chance": 100,
+				"effect": "CONST_ME_DRAWBLOOD",
+				"interval": 2000,
+				"maxDamage": -30,
+				"minDamage": 0,
+				"name": "melee"
+			},
+			{
+				"chance": 20,
+				"effect": "CONST_ME_GREEN_RINGS",
+				"interval": 2000,
+				"maxDamage": -17,
+				"minDamage": -8,
+				"name": "combat",
+				"range": 7,
+				"shootEffect": "CONST_ANI_POISON",
+				"type": "COMBAT_EARTHDAMAGE"
+			}
+		],
+		"elements": [
+			{
+				"percent": 0,
+				"type": "COMBAT_PHYSICALDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_ENERGYDAMAGE"
+			},
+			{
+				"percent": 20,
+				"type": "COMBAT_EARTHDAMAGE"
+			},
+			{
+				"percent": -10,
+				"type": "COMBAT_FIREDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_LIFEDRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_MANADRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_DROWNDAMAGE"
+			},
+			{
+				"percent": 20,
+				"type": "COMBAT_ICEDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_HOLYDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_DEATHDAMAGE"
+			}
+		],
+		"experience": 60,
+		"flags": {
+			"rewardBoss": false,
+			"runHealth": 10,
+			"targetDistance": 1
+		},
+		"health": 135,
+		"immunities": [
+			{
+				"condition": false,
+				"type": "paralyze"
+			},
+			{
+				"condition": false,
+				"type": "outfit"
+			},
+			{
+				"condition": false,
+				"type": "invisible"
+			},
+			{
+				"condition": false,
+				"type": "bleed"
+			}
+		],
+		"lookType": 222,
+		"name": "Toad",
+		"speed": 105,
+		"summons": [],
+		"voices": [
+			{
+				"chance": 10,
+				"interval": 5000,
+				"text": "Ribbit! Ribbit!",
+				"yell": false
+			},
+			{
+				"chance": 10,
+				"interval": 5000,
+				"text": "Ribbit!",
+				"yell": false
+			}
+		]
+	},
+	{
+		"armor": 6,
+		"attacks": [
+			{
+				"chance": 100,
+				"interval": 2000,
+				"maxDamage": -15,
+				"minDamage": 0,
+				"name": "melee"
+			}
+		],
+		"elements": [
+			{
+				"percent": 0,
+				"type": "COMBAT_PHYSICALDAMAGE"
+			},
+			{
+				"percent": 20,
+				"type": "COMBAT_ENERGYDAMAGE"
+			},
+			{
+				"percent": -10,
+				"type": "COMBAT_EARTHDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_FIREDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_LIFEDRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_MANADRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_DROWNDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_ICEDAMAGE"
+			},
+			{
+				"percent": 10,
+				"type": "COMBAT_HOLYDAMAGE"
+			},
+			{
+				"percent": -10,
+				"type": "COMBAT_DEATHDAMAGE"
+			}
+		],
+		"experience": 20,
+		"flags": {
+			"rewardBoss": false,
+			"runHealth": 15,
+			"targetDistance": 1
+		},
+		"health": 50,
+		"immunities": [
+			{
+				"condition": false,
+				"type": "paralyze"
+			},
+			{
+				"condition": false,
+				"type": "outfit"
+			},
+			{
+				"condition": false,
+				"type": "invisible"
+			},
+			{
+				"condition": false,
+				"type": "bleed"
+			}
+		],
+		"lookType": 15,
+		"name": "Troll",
+		"speed": 63,
+		"summons": [],
+		"voices": [
+			{
+				"chance": 10,
+				"interval": 5000,
+				"text": "Hmmm, bugs",
+				"yell": false
+			},
+			{
+				"chance": 10,
+				"interval": 5000,
+				"text": "Hmmm, dogs",
+				"yell": false
+			},
+			{
+				"chance": 10,
+				"interval": 5000,
+				"text": "Grrr",
+				"yell": false
+			},
+			{
+				"chance": 10,
+				"interval": 5000,
+				"text": "Groar",
+				"yell": false
+			},
+			{
+				"chance": 10,
+				"interval": 5000,
+				"text": "Gruntz!",
+				"yell": false
+			}
+		]
+	},
+	{
+		"armor": 4,
+		"attacks": [
+			{
+				"chance": 100,
+				"interval": 2000,
+				"maxDamage": -9,
+				"minDamage": 0,
+				"name": "melee"
+			}
+		],
+		"elements": [
+			{
+				"percent": 0,
+				"type": "COMBAT_PHYSICALDAMAGE"
+			},
+			{
+				"percent": 20,
+				"type": "COMBAT_ENERGYDAMAGE"
+			},
+			{
+				"percent": -10,
+				"type": "COMBAT_EARTHDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_FIREDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_LIFEDRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_MANADRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_DROWNDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_ICEDAMAGE"
+			},
+			{
+				"percent": 10,
+				"type": "COMBAT_HOLYDAMAGE"
+			},
+			{
+				"percent": -10,
+				"type": "COMBAT_DEATHDAMAGE"
+			}
+		],
+		"experience": 25,
+		"flags": {
+			"rewardBoss": false,
+			"runHealth": 17,
+			"targetDistance": 1
+		},
+		"health": 60,
+		"immunities": [
+			{
+				"condition": false,
+				"type": "paralyze"
+			},
+			{
+				"condition": false,
+				"type": "outfit"
+			},
+			{
+				"condition": false,
+				"type": "invisible"
+			},
+			{
+				"condition": false,
+				"type": "bleed"
+			}
+		],
+		"lookType": 281,
+		"name": "Troll Guard",
+		"speed": 63,
+		"summons": [],
+		"voices": []
+	},
+	{
+		"armor": 4,
+		"attacks": [
+			{
+				"chance": 100,
+				"interval": 1500,
+				"maxDamage": -20,
+				"minDamage": 0,
+				"name": "melee"
+			}
+		],
+		"elements": [
+			{
+				"percent": 0,
+				"type": "COMBAT_PHYSICALDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_ENERGYDAMAGE"
+			},
+			{
+				"percent": 100,
+				"type": "COMBAT_EARTHDAMAGE"
+			},
+			{
+				"percent": -10,
+				"type": "COMBAT_FIREDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_LIFEDRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_MANADRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_DROWNDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_ICEDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_HOLYDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_DEATHDAMAGE"
+			}
+		],
+		"experience": 24,
+		"flags": {
+			"rewardBoss": false,
+			"runHealth": 0,
+			"targetDistance": 1
+		},
+		"health": 35,
+		"immunities": [
+			{
+				"condition": false,
+				"type": "paralyze"
+			},
+			{
+				"condition": false,
+				"type": "outfit"
+			},
+			{
+				"condition": false,
+				"type": "invisible"
+			},
+			{
+				"condition": false,
+				"type": "bleed"
+			}
+		],
+		"lookType": 44,
+		"name": "Wasp",
+		"speed": 160,
+		"summons": [],
+		"voices": [
+			{
+				"chance": 10,
+				"interval": 5000,
+				"text": "Bssssss",
+				"yell": false
+			}
+		]
+	},
+	{
+		"armor": 2,
+		"attacks": [
+			{
+				"chance": 100,
+				"interval": 2000,
+				"maxDamage": 0,
+				"minDamage": 0,
+				"name": "melee"
+			}
+		],
+		"elements": [
+			{
+				"percent": 0,
+				"type": "COMBAT_PHYSICALDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_ENERGYDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_EARTHDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_FIREDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_LIFEDRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_MANADRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_DROWNDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_ICEDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_HOLYDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_DEATHDAMAGE"
+			}
+		],
+		"experience": 0,
+		"flags": {
+			"rewardBoss": true,
+			"runHealth": 0,
+			"targetDistance": 1
+		},
+		"health": 5,
+		"immunities": [
+			{
+				"condition": true,
+				"type": "paralyze"
+			},
+			{
+				"condition": false,
+				"type": "outfit"
+			},
+			{
+				"condition": false,
+				"type": "invisible"
+			},
+			{
+				"condition": false,
+				"type": "bleed"
+			}
+		],
+		"lookType": 12,
+		"name": "Weakened Demon",
+		"speed": 200,
+		"summons": [],
+		"voices": [
+			{
+				"chance": 10,
+				"interval": 5000,
+				"text": "UH?",
+				"yell": true
+			}
+		]
+	},
+	{
+		"armor": 1,
+		"attacks": [
+			{
+				"chance": 100,
+				"interval": 2000,
+				"maxDamage": -20,
+				"minDamage": 0,
+				"name": "melee"
+			}
+		],
+		"elements": [
+			{
+				"percent": 0,
+				"type": "COMBAT_PHYSICALDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_ENERGYDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_EARTHDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_FIREDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_LIFEDRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_MANADRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_DROWNDAMAGE"
+			},
+			{
+				"percent": -10,
+				"type": "COMBAT_ICEDAMAGE"
+			},
+			{
+				"percent": 30,
+				"type": "COMBAT_HOLYDAMAGE"
+			},
+			{
+				"percent": -5,
+				"type": "COMBAT_DEATHDAMAGE"
+			}
+		],
+		"experience": 18,
+		"flags": {
+			"rewardBoss": false,
+			"runHealth": 8,
+			"targetDistance": 1
+		},
+		"health": 25,
+		"immunities": [
+			{
+				"condition": false,
+				"type": "paralyze"
+			},
+			{
+				"condition": false,
+				"type": "outfit"
+			},
+			{
+				"condition": false,
+				"type": "invisible"
+			},
+			{
+				"condition": false,
+				"type": "bleed"
+			}
+		],
+		"lookType": 27,
+		"name": "Wolf",
+		"speed": 82,
+		"summons": [],
+		"voices": [
+			{
+				"chance": 10,
+				"interval": 5000,
+				"text": "Yoooohhuuuu!",
+				"yell": false
+			},
+			{
+				"chance": 10,
+				"interval": 5000,
+				"text": "Grrrrrrr",
+				"yell": false
+			}
+		]
+	},
+	{
+		"armor": 2,
+		"attacks": [
+			{
+				"chance": 100,
+				"interval": 2000,
+				"maxDamage": -10,
+				"minDamage": 0,
+				"name": "melee"
+			}
+		],
+		"elements": [
+			{
+				"percent": 0,
+				"type": "COMBAT_PHYSICALDAMAGE"
+			},
+			{
+				"percent": 20,
+				"type": "COMBAT_ENERGYDAMAGE"
+			},
+			{
+				"percent": -10,
+				"type": "COMBAT_EARTHDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_FIREDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_LIFEDRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_MANADRAIN"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_DROWNDAMAGE"
+			},
+			{
+				"percent": 0,
+				"type": "COMBAT_ICEDAMAGE"
+			},
+			{
+				"percent": 10,
+				"type": "COMBAT_HOLYDAMAGE"
+			},
+			{
+				"percent": -10,
+				"type": "COMBAT_DEATHDAMAGE"
+			}
+		],
+		"experience": 12,
+		"flags": {
+			"rewardBoss": false,
+			"runHealth": 15,
+			"targetDistance": 1
+		},
+		"health": 30,
+		"immunities": [
+			{
+				"condition": false,
+				"type": "paralyze"
+			},
+			{
+				"condition": false,
+				"type": "outfit"
+			},
+			{
+				"condition": false,
+				"type": "invisible"
+			},
+			{
+				"condition": false,
+				"type": "bleed"
+			}
+		],
+		"lookType": 15,
+		"name": "Young Troll",
+		"speed": 58,
+		"summons": [],
+		"voices": [
+			{
+				"chance": 10,
+				"interval": 5000,
+				"text": "Hmmm, dogs",
+				"yell": false
+			},
+			{
+				"chance": 10,
+				"interval": 5000,
+				"text": "Gruntz!",
+				"yell": false
+			}
+		]
+	}
+]

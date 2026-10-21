@@ -1,0 +1,227 @@
+[
+	{
+		"grade": 1,
+		"id": "first_blood",
+		"name": "First Blood"
+	},
+	{
+		"grade": 1,
+		"id": "floor_1",
+		"name": "Floor 1"
+	},
+	{
+		"grade": 1,
+		"id": "floor_5",
+		"name": "Floor 5"
+	},
+	{
+		"grade": 1,
+		"id": "floor_10",
+		"name": "Floor 10"
+	},
+	{
+		"grade": 1,
+		"id": "floor_20",
+		"name": "Floor 20"
+	},
+	{
+		"grade": 2,
+		"id": "tower_clear",
+		"name": "Tower clear"
+	},
+	{
+		"grade": 1,
+		"id": "level_10",
+		"name": "Level 10"
+	},
+	{
+		"grade": 1,
+		"id": "level_30",
+		"name": "Level 30"
+	},
+	{
+		"grade": 2,
+		"id": "level_50",
+		"name": "Level 50"
+	},
+	{
+		"grade": 2,
+		"id": "level_60",
+		"name": "Level 60"
+	},
+	{
+		"grade": 1,
+		"id": "first_evo",
+		"name": "First evolution"
+	},
+	{
+		"grade": 2,
+		"id": "evo_5",
+		"name": "Five evolutions"
+	},
+	{
+		"grade": 1,
+		"id": "kills_100",
+		"name": "One hundred kills"
+	},
+	{
+		"grade": 2,
+		"id": "kills_1000",
+		"name": "One thousand kills"
+	},
+	{
+		"grade": 1,
+		"id": "specialist",
+		"name": "Specialist"
+	},
+	{
+		"grade": 3,
+		"id": "ratinator",
+		"name": "Ratinator"
+	},
+	{
+		"grade": 1,
+		"id": "first_elite",
+		"name": "First elite"
+	},
+	{
+		"grade": 1,
+		"id": "first_boss",
+		"name": "First boss"
+	},
+	{
+		"grade": 1,
+		"id": "first_talent",
+		"name": "First node"
+	},
+	{
+		"grade": 1,
+		"id": "refund",
+		"name": "Refund"
+	},
+	{
+		"grade": 1,
+		"id": "gold_100",
+		"name": "100 Gold Coins"
+	},
+	{
+		"grade": 1,
+		"id": "unlock_mage",
+		"name": "Sorcerer"
+	},
+	{
+		"grade": 1,
+		"id": "unlock_druid",
+		"name": "Druid"
+	},
+	{
+		"grade": 1,
+		"id": "unlock_monk",
+		"name": "Monk"
+	},
+	{
+		"grade": 1,
+		"id": "ten_runs",
+		"name": "Ten runs"
+	},
+	{
+		"grade": 2,
+		"id": "legendary",
+		"name": "Legendary"
+	},
+	{
+		"grade": 3,
+		"id": "gold_hoarder",
+		"name": "Gold Hoarder"
+	},
+	{
+		"grade": 3,
+		"id": "executioner",
+		"name": "Executioner"
+	},
+	{
+		"grade": 1,
+		"id": "drome_10",
+		"name": "Wave 10"
+	},
+	{
+		"grade": 1,
+		"id": "drome_25",
+		"name": "Wave 25"
+	},
+	{
+		"grade": 1,
+		"id": "drome_50",
+		"name": "Wave 50"
+	},
+	{
+		"grade": 2,
+		"id": "drome_100",
+		"name": "Bringer of Rain"
+	},
+	{
+		"grade": 3,
+		"id": "drome_150",
+		"name": "Reigning Drome Champion"
+	},
+	{
+		"grade": 2,
+		"id": "challenge_roots_no_passives",
+		"name": "Roots with no passives"
+	},
+	{
+		"grade": 2,
+		"id": "challenge_hero_knight",
+		"name": "Tower as Knight"
+	},
+	{
+		"grade": 2,
+		"id": "challenge_hero_monk",
+		"name": "Tower as Monk"
+	},
+	{
+		"grade": 2,
+		"id": "challenge_sealed",
+		"name": "Tower with a seal"
+	},
+	{
+		"grade": 2,
+		"id": "challenge_talents_off",
+		"name": "Tower with a talent off"
+	},
+	{
+		"grade": 2,
+		"id": "challenge_hazard",
+		"name": "Hazard 1"
+	},
+	{
+		"grade": 2,
+		"id": "challenge_solo",
+		"name": "Tower with no bots"
+	},
+	{
+		"grade": 1,
+		"id": "unlock_elite_knight",
+		"name": "Elite Knight"
+	},
+	{
+		"grade": 1,
+		"id": "unlock_royal_paladin",
+		"name": "Royal Paladin"
+	},
+	{
+		"grade": 1,
+		"id": "unlock_master_sorcerer",
+		"name": "Master Sorcerer"
+	},
+	{
+		"grade": 1,
+		"id": "unlock_elder_druid",
+		"name": "Elder Druid"
+	},
+	{
+		"grade": 1,
+		"id": "unlock_exalted_monk",
+		"name": "Exalted Monk"
+	}
+]

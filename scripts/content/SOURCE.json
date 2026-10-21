@@ -1,0 +1,9 @@
+{
+	"canaryCommit": "04b83b512114bfd888000d6e1433ed8ecaec7c5b",
+	"canaryTarballUrl": "https://codeload.github.com/opentibiabr/canary/tar.gz/04b83b512114bfd888000d6e1433ed8ecaec7c5b",
+	"canaryTarballSha256": "6e7016a5623f9069004cd8266441b5c96cdaa3cf94136d8c59bb49957cb00885",
+	"otbmUrl": "https://github.com/opentibiabr/canary/releases/download/v3.6.1/otservbr.otbm",
+	"otbmSha256": "a80de1dda6a9aca3956a9d5b7fb2e0caebb451570d26853fc21beb40d5f31da2",
+	"otbmBytes": 184776037,
+	"otbmVersion": "3.6.1"
+}

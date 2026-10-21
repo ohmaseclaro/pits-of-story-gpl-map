@@ -1,0 +1,19 @@
+{
+	"3031": {
+		"attrs": {
+			"primarytype": "valuables",
+			"weight": "10"
+		},
+		"id": 3031,
+		"name": "gold coin"
+	},
+	"3607": {
+		"attrs": {
+			"primarytype": "food",
+			"showCount": "0",
+			"weight": "400"
+		},
+		"id": 3607,
+		"name": "cheese"
+	}
+}

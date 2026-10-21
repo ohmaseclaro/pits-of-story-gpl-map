@@ -1,0 +1,44 @@
+[
+	{
+		"day": 1,
+		"fallbackGold": 100,
+		"kind": "gold",
+		"name": "Gold Coin"
+	},
+	{
+		"day": 2,
+		"fallbackGold": 150,
+		"kind": "gold",
+		"name": "Gold Coin"
+	},
+	{
+		"day": 3,
+		"fallbackGold": 25,
+		"kind": "preyWildcard",
+		"name": "Prey Wildcard"
+	},
+	{
+		"day": 4,
+		"fallbackGold": 25,
+		"kind": "xpBoost",
+		"name": "XP Boost"
+	},
+	{
+		"day": 5,
+		"fallbackGold": 25,
+		"kind": "spark",
+		"name": "Spark of the Phoenix"
+	},
+	{
+		"day": 6,
+		"fallbackGold": 25,
+		"kind": "preyWildcard",
+		"name": "Prey Wildcard"
+	},
+	{
+		"day": 7,
+		"fallbackGold": 50,
+		"kind": "chest",
+		"name": "Exaltation Chest"
+	}
+]
